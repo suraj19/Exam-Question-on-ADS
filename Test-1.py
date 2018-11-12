@@ -1,7 +1,13 @@
 #Date: 12-09-18
 #ADS-1 Test
 #Author: A.Suraj Kumar
-#“Nala-Paka” is well known restaurant which allows on line advance booking of tables. There are 2-chair table, 4-chair table and 6-chair tables. If the customer is alone, he/she can reserve only 2-chair table. Two customers can reserve 2-chair or 4-chairtable. All reservations can be done for the same day. Tables are reserved for duration of one hour and at fixed time slots. Time slots start from morning 7 O’clock to night 10 O’clock. The number of tables in each category is fixed and is uniquely numbered like 2T-1, 2T-2 etc. for 2-Chair tables and 4T-1 and 6T-1 for 4 and 6-chair tables. Owner has the provision to cancel the bookings and see the status of booking. System should tell how many tables of various category are booked at the given time slot. There should be also a method which shows tables which are free in various category at the given time slot.
+'''“Nala-Paka” is well known restaurant which allows on line advance booking of tables. 
+There are 2-chair table, 4-chair table and 6-chair tables. If the customer is alone, he/she can reserve only 2-chair table. 
+Two customers can reserve 2-chair or 4-chairtable. All reservations can be done for the same day. 
+Tables are reserved for duration of one hour and at fixed time slots. Time slots start from morning 7 O’clock to night 10 O’clock. 
+The number of tables in each category is fixed and is uniquely numbered like 2T-1, 2T-2 etc. 
+for 2-Chair tables and 4T-1 and 6T-1 for 4 and 6-chair tables.Owner has the provision to cancel the bookings and see the status of booking.
+System should tell how many tables of various category are booked at the given time slot. There should be also a method which shows tables which are free in various category at the given time slot.'''
 
 import ArrayQueue
 two=ArrayQueue.ArrayQueue()
